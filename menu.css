@@ -1,0 +1,24 @@
+ul li{
+list-style-type:none;
+Text-transform:capitalize;
+display:inline;
+Border: 2px Solid purple;
+padding: 5px;
+margin: 6px;
+background-color: gray;
+
+}
+ul li  a{
+	text-decoration:none;
+	color: Black;
+}
+ul li:hover{background-color:pink;
+text-transform: Uppercase;}
+#info1{
+	background-color:white;
+	border-bottom:0px;
+
+}
+ul{
+	Float:right;
+}

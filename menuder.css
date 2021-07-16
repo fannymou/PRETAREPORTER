@@ -1,0 +1,20 @@
+.menu>li{
+	display:inline;margin:5x;
+
+
+}
+.menu>li>a{
+		
+	color:black;
+	text-decoration:none;display:inline-block;padding:10px;font-size:1.5em;
+}
+.services{position:relative;}
+.sousmenu{list-style-type:none;position:absolute;width:100%;max-height:0;overflow:hidden;padding:0;margin:5px 0;left:0;}
+.services:hover>.sousmenu{max-height:150px;}
+.sousmenu>li{text-align:center;background-color:#777;line-height:1.5em;font-size:1em;padding:5px 0;border:1px #fff solid;}
+.sousmenu>li>a{text-decoration:none;
+display:inline-block;width:100%;color:#fff;}
+.menu>li:hover{border-bottom:4px solid #39c;}
+.sousmenu>li:hover{border-bottom:4px solid #39c;}
+body{background-image:url("C:/Users/Gianni/Desktop/site web/peche.jpg");
+background-size:800px;}
